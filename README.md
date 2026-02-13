@@ -6,7 +6,7 @@ Slack app manifest for deploying the [Support Inbox](https://github.com/hillside
 
 `manifest.json` defines the full Slack app configuration:
 
-- **Bot scopes:** `channels:history`, `channels:read`, `channels:join`, `chat:write`, `reactions:read`, `users:read`
+- **Bot scopes:** `channels:history`, `channels:read`, `channels:join`, `chat:write`, `reactions:read`, `reactions:write`, `users:read`
 - **Event subscriptions:** `app_home_opened`, `message.channels`, `reaction_added`, `reaction_removed`
 - **Features:** App Home (Home Tab), Socket Mode, Interactivity
 - **Bot user:** "Support Inbox" (always online)
